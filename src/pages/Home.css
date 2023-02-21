@@ -1,0 +1,33 @@
+.homes-header{
+    border-bottom: 1px solid gray;
+    height: 50px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.home-header-logo{
+    height: 44px;
+}
+
+.homes-grid{
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-item img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.h4{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
